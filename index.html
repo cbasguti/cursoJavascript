@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="icon" type="image/x-icon" href="src/pageico.ico" />
+        <title>Piedra Papel Tijera</title>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Piedra Papel Tijera</h1>
+        </header>
+
+        <div class="score-board">
+            <div id="user-label" class="badge">P1</div>
+            <div id="computer-label" class="badge">COM</div>
+            <span id="user-score">0</span>:<span id="computer-score">0</span>
+        </div>
+
+        <div class="result">
+            <p>¡Bienvenido al juego!</p>
+        </div>
+
+        <div class="choices" id="comDiv"></div>
+
+        <div class="choices">
+            <div class="choice">
+                <img src="src/rock.png" alt="rock.png" id="r">
+            </div>
+            <div class="choice">
+                <img src="src/paper.png" alt="paper.png" id="p">
+            </div>
+            <div class="choice">
+                <img src="src/scissors.png" alt="scissors.png" id="s">
+            </div>
+        </div>
+
+        <p id="action-message">¡Elige un movimiento!</p>
+        <script src="js/scripts.js" type = "text/javascript"></script>
+    </body>
+</html>
